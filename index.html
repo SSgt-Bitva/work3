@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header" id="header">
+            <div class="header_top">
+                <div class="container">
+                    <div class="header_logo">
+                        <div class="header_name">
+                            <img src="img/header/logo.png" alt="Лого">
+                            <h2>PhotoGuide</h2>
+                        </div>
+                        <div class="header_motto">
+                            <p>Stop the time - <br>
+                                leave the memories</p>
+                        </div>
+                    </div>
+                    <div class="header_nav" id="nav">
+                        <nav>
+                            <a href="#" data-scroll="#price">Цены и услуги</a>
+                            <a href="#" data-scroll="#footer">Контакты</a>
+                            <a href="#" data-scroll="#response">Отзывы</a>
+                            <a href="#" data-scroll="#gallery">Галерея</a>
+                        </nav>
+                    </div>
+                    <div class="burger" id="burger">
+                        <span class="burger__btn">menu</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <section id="main">
+        <div class="main">
+            <div class="main_bg">
+                <img src="img/header/bg_main.jpg" alt="">
+            </div>
+
+            <div class="main_content">
+                <div class="main_title">
+                    <h1>Фотосессия
+                        <br> в Турции</h1>
+                </div>
+                <div class="main_subtitle">
+                    <h2>по цене 7000 рублей за 100 фотографий <br>
+                        и 10 одноминутных видео для <span>Instagram</span><img src="img/main/insta.png" alt=""></h2>
+
+                </div>
+                <div class="main_btn" id="btn-contact">
+                    <button>Связаться с фотографом</button>
+                </div>
+            </div>
+
+            <footer>
+                <div class="main_footer">
+
+                    <div class="main_footer_title">
+                        <div class="container">
+                            <p>Вы получаете</p>
+                            <p>*Турция</p>
+                        </div>
+                    </div>
+
+                    <div class="main_footer_row">
+                        <!-- row -->
+                        <div class="container">
+                            <div class="main_footer_card">
+                                <div class="main_footer_icon">
+                                    <svg display="none">
+                                        <symbol id="pic" viewBox="0 0 41 37">
+                                            <g>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M37.6073 36.8937H2.89542C1.52827 36.8937 0.334595 35.7764 0.334595 34.4034V9.50069C0.334595 8.12689 1.52827 7.00959 2.89542 7.00959H37.6073C38.9745 7.00959 40.179 8.12689 40.179 9.50069V34.4034C40.179 35.7764 38.9745 36.8937 37.6073 36.8937ZM38.5188 9.50069C38.5188 9.04248 38.063 8.66977 37.6073 8.66977H2.89542C2.4397 8.66977 1.99478 9.04248 1.99478 9.50069V26.9741L12.2713 18.0041C12.5984 17.7194 13.0914 17.7368 13.3977 18.0448L22.8085 27.4962L28.8466 22.9473C29.1802 22.6966 29.6443 22.7348 29.9348 23.032L38.5188 31.87V9.50069ZM38.5188 34.2465L29.2583 24.7129L23.2268 29.2568C22.8981 29.505 22.4374 29.4718 22.1469 29.1788L12.7735 19.7656L1.99478 29.1738V34.4034C1.99478 34.8608 2.4397 35.2327 2.89542 35.2327H37.6073C38.063 35.2327 38.5188 34.8608 38.5188 34.4034V34.2465ZM26.8635 16.1431C26.8635 14.7684 27.9774 13.6511 29.3463 13.6511C30.7109 13.6511 31.8224 14.7684 31.8224 16.1431C31.8224 17.5144 30.7109 18.6309 29.3463 18.6309C27.9774 18.6309 26.8635 17.5144 26.8635 16.1431ZM30.1697 16.1431C30.1697 15.684 29.8003 15.3113 29.3463 15.3113C28.8889 15.3113 28.5162 15.684 28.5162 16.1431C28.5162 16.5996 28.8889 16.9715 29.3463 16.9715C29.8003 16.9715 30.1697 16.5996 30.1697 16.1431ZM36.7814 5.35023H2.89542C2.4397 5.35023 2.06948 4.97835 2.06948 4.52014C2.06948 4.0611 2.4397 3.69005 2.89542 3.69005H36.7814C37.2379 3.69005 37.6073 4.0611 37.6073 4.52014C37.6073 4.97835 37.2379 5.35023 36.7814 5.35023ZM35.1278 2.02904H4.54897C4.09242 2.02904 3.72219 1.65799 3.72219 1.19895C3.72219 0.740741 4.09242 0.36969 4.54897 0.36969H35.1278C35.5844 0.36969 35.9546 0.740741 35.9546 1.19895C35.9546 1.65799 35.5844 2.02904 35.1278 2.02904Z"
+                                                    fill="#F2C94C" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M37.6073 36.8937H2.89542C1.52827 36.8937 0.334595 35.7764 0.334595 34.4034V9.50069C0.334595 8.12689 1.52827 7.00959 2.89542 7.00959H37.6073C38.9745 7.00959 40.179 8.12689 40.179 9.50069V34.4034C40.179 35.7764 38.9745 36.8937 37.6073 36.8937ZM38.5188 9.50069C38.5188 9.04248 38.063 8.66977 37.6073 8.66977H2.89542C2.4397 8.66977 1.99478 9.04248 1.99478 9.50069V26.9741L12.2713 18.0041C12.5984 17.7194 13.0914 17.7368 13.3977 18.0448L22.8085 27.4962L28.8466 22.9473C29.1802 22.6966 29.6443 22.7348 29.9348 23.032L38.5188 31.87V9.50069ZM38.5188 34.2465L29.2583 24.7129L23.2268 29.2568C22.8981 29.505 22.4374 29.4718 22.1469 29.1788L12.7735 19.7656L1.99478 29.1738V34.4034C1.99478 34.8608 2.4397 35.2327 2.89542 35.2327H37.6073C38.063 35.2327 38.5188 34.8608 38.5188 34.4034V34.2465ZM26.8635 16.1431C26.8635 14.7684 27.9774 13.6511 29.3463 13.6511C30.7109 13.6511 31.8224 14.7684 31.8224 16.1431C31.8224 17.5144 30.7109 18.6309 29.3463 18.6309C27.9774 18.6309 26.8635 17.5144 26.8635 16.1431ZM30.1697 16.1431C30.1697 15.684 29.8003 15.3113 29.3463 15.3113C28.8889 15.3113 28.5162 15.684 28.5162 16.1431C28.5162 16.5996 28.8889 16.9715 29.3463 16.9715C29.8003 16.9715 30.1697 16.5996 30.1697 16.1431ZM36.7814 5.35023H2.89542C2.4397 5.35023 2.06948 4.97835 2.06948 4.52014C2.06948 4.0611 2.4397 3.69005 2.89542 3.69005H36.7814C37.2379 3.69005 37.6073 4.0611 37.6073 4.52014C37.6073 4.97835 37.2379 5.35023 36.7814 5.35023ZM35.1278 2.02904H4.54897C4.09242 2.02904 3.72219 1.65799 3.72219 1.19895C3.72219 0.740741 4.09242 0.36969 4.54897 0.36969H35.1278C35.5844 0.36969 35.9546 0.740741 35.9546 1.19895C35.9546 1.65799 35.5844 2.02904 35.1278 2.02904Z"
+                                                    fill="url(#paint0_linear)" />
+                                        </symbol>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xlink:href="#pic"></use>
+                                    </svg>
+                                </div>
+                                <div class="main_footer_text">
+                                    <p>100 обработанных фото <br>
+                                        и оригиналы</p>
+                                </div>
+                            </div>
+                            <div class="main_footer_card divider">
+                                <div class="main_footer_icon">
+                                    <svg display="none">
+                                        <symbol id="pic_2" viewBox="0 0 41 38">
+                                            <g>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17.0158 13.6195C17.3154 13.3206 17.7997 13.3206 18.0993 13.6195L22.9067 18.4268C23.3626 18.1579 23.8867 17.9932 24.4537 17.9932C26.144 17.9932 27.5187 19.3678 27.5187 21.0581C27.5187 22.7477 26.144 24.1231 24.4537 24.1231C22.7634 24.1231 21.3888 22.7477 21.3888 21.0581C21.3888 20.4911 21.5535 19.9662 21.8232 19.5103L17.0158 14.7029C16.7162 14.4041 16.7162 13.9191 17.0158 13.6195ZM24.4537 22.5898C25.2981 22.5898 25.9862 21.9025 25.9862 21.0581C25.9862 20.2129 25.2981 19.5256 24.4537 19.5256C24.1549 19.5256 23.8775 19.6153 23.6407 19.7639C23.6047 19.8743 23.5511 19.9792 23.463 20.0666C23.3756 20.1547 23.2699 20.2083 23.1595 20.2444C23.0109 20.4811 22.9212 20.7585 22.9212 21.0581C22.9212 21.9025 23.6086 22.5898 24.4537 22.5898ZM36.6967 10.6641C39.0881 13.4678 40.5447 17.0898 40.5447 21.0581C40.5447 29.9304 33.326 37.1491 24.4537 37.1491C19.3437 37.1491 14.6512 34.8021 11.5794 30.7119C11.3258 30.374 11.394 29.8936 11.7319 29.6392C12.0705 29.3856 12.5517 29.453 12.8054 29.7917C15.5853 33.4926 19.831 35.6159 24.4537 35.6159C32.4816 35.6159 39.0122 29.0852 39.0122 21.0581C39.0122 13.0302 32.4816 6.49883 24.4537 6.49883C19.5452 6.49883 14.9983 8.94849 12.2928 13.0509C12.0598 13.4042 11.5848 13.5015 11.2308 13.2693C10.8775 13.0364 10.7802 12.5598 11.0131 12.2065C13.8628 7.88801 18.559 5.23223 23.6875 4.9901V1.9014H20.6225C20.1988 1.9014 19.8563 1.55812 19.8563 1.13516C19.8563 0.712198 20.1988 0.36969 20.6225 0.36969H28.2849C28.7086 0.36969 29.0511 0.712198 29.0511 1.13516C29.0511 1.55812 28.7086 1.9014 28.2849 1.9014H25.22V5.00543C28.8833 5.17936 32.2257 6.58541 34.8508 8.81056L36.938 6.72333C37.2376 6.4245 37.7219 6.4245 38.0215 6.72333L38.7877 7.49034C39.0873 7.78917 39.0873 8.2742 38.7877 8.5738L36.6967 10.6641ZM9.12896 17.2262H1.46659C1.04286 17.2262 0.700348 16.8836 0.700348 16.4599C0.700348 16.037 1.04286 15.6944 1.46659 15.6944H9.12896C9.55269 15.6944 9.8952 16.037 9.8952 16.4599C9.8952 16.8836 9.55269 17.2262 9.12896 17.2262ZM4.53154 20.2911H13.7264C14.1501 20.2911 14.4926 20.6351 14.4926 21.0581C14.4926 21.4811 14.1501 21.8236 13.7264 21.8236H4.53154C4.10781 21.8236 3.7653 21.4811 3.7653 21.0581C3.7653 20.6351 4.10781 20.2911 4.53154 20.2911ZM6.83025 24.8893H11.4277C11.8514 24.8893 12.1939 25.2318 12.1939 25.6548C12.1939 26.0777 11.8514 26.4218 11.4277 26.4218H6.83025C6.40652 26.4218 6.06401 26.0777 6.06401 25.6548C6.06401 25.2318 6.40652 24.8893 6.83025 24.8893Z"
+                                                    fill="#F2C94C" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17.0158 13.6195C17.3154 13.3206 17.7997 13.3206 18.0993 13.6195L22.9067 18.4268C23.3626 18.1579 23.8867 17.9932 24.4537 17.9932C26.144 17.9932 27.5187 19.3678 27.5187 21.0581C27.5187 22.7477 26.144 24.1231 24.4537 24.1231C22.7634 24.1231 21.3888 22.7477 21.3888 21.0581C21.3888 20.4911 21.5535 19.9662 21.8232 19.5103L17.0158 14.7029C16.7162 14.4041 16.7162 13.9191 17.0158 13.6195ZM24.4537 22.5898C25.2981 22.5898 25.9862 21.9025 25.9862 21.0581C25.9862 20.2129 25.2981 19.5256 24.4537 19.5256C24.1549 19.5256 23.8775 19.6153 23.6407 19.7639C23.6047 19.8743 23.5511 19.9792 23.463 20.0666C23.3756 20.1547 23.2699 20.2083 23.1595 20.2444C23.0109 20.4811 22.9212 20.7585 22.9212 21.0581C22.9212 21.9025 23.6086 22.5898 24.4537 22.5898ZM36.6967 10.6641C39.0881 13.4678 40.5447 17.0898 40.5447 21.0581C40.5447 29.9304 33.326 37.1491 24.4537 37.1491C19.3437 37.1491 14.6512 34.8021 11.5794 30.7119C11.3258 30.374 11.394 29.8936 11.7319 29.6392C12.0705 29.3856 12.5517 29.453 12.8054 29.7917C15.5853 33.4926 19.831 35.6159 24.4537 35.6159C32.4816 35.6159 39.0122 29.0852 39.0122 21.0581C39.0122 13.0302 32.4816 6.49883 24.4537 6.49883C19.5452 6.49883 14.9983 8.94849 12.2928 13.0509C12.0598 13.4042 11.5848 13.5015 11.2308 13.2693C10.8775 13.0364 10.7802 12.5598 11.0131 12.2065C13.8628 7.88801 18.559 5.23223 23.6875 4.9901V1.9014H20.6225C20.1988 1.9014 19.8563 1.55812 19.8563 1.13516C19.8563 0.712198 20.1988 0.36969 20.6225 0.36969H28.2849C28.7086 0.36969 29.0511 0.712198 29.0511 1.13516C29.0511 1.55812 28.7086 1.9014 28.2849 1.9014H25.22V5.00543C28.8833 5.17936 32.2257 6.58541 34.8508 8.81056L36.938 6.72333C37.2376 6.4245 37.7219 6.4245 38.0215 6.72333L38.7877 7.49034C39.0873 7.78917 39.0873 8.2742 38.7877 8.5738L36.6967 10.6641ZM9.12896 17.2262H1.46659C1.04286 17.2262 0.700348 16.8836 0.700348 16.4599C0.700348 16.037 1.04286 15.6944 1.46659 15.6944H9.12896C9.55269 15.6944 9.8952 16.037 9.8952 16.4599C9.8952 16.8836 9.55269 17.2262 9.12896 17.2262ZM4.53154 20.2911H13.7264C14.1501 20.2911 14.4926 20.6351 14.4926 21.0581C14.4926 21.4811 14.1501 21.8236 13.7264 21.8236H4.53154C4.10781 21.8236 3.7653 21.4811 3.7653 21.0581C3.7653 20.6351 4.10781 20.2911 4.53154 20.2911ZM6.83025 24.8893H11.4277C11.8514 24.8893 12.1939 25.2318 12.1939 25.6548C12.1939 26.0777 11.8514 26.4218 11.4277 26.4218H6.83025C6.40652 26.4218 6.06401 26.0777 6.06401 25.6548C6.06401 25.2318 6.40652 24.8893 6.83025 24.8893Z"
+                                                    fill="url(#paint0_linear)" />
+                                        </symbol>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xlink:href="#pic_2"></use>
+                                    </svg>
+                                </div>
+                                <div class="main_footer_text">
+                                    <p>Первые 10 фото и 1 видео
+                                        в течение 24 часов</p>
+                                </div>
+                            </div>
+                            <div class="main_footer_card">
+                                <div class="main_footer_icon">
+                                    <svg display="none">
+                                        <symbol id="pic_3" viewBox="0 0 41 37">
+                                            <g>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M40.0737 36.7987H1.74722C1.32753 36.7987 0.988281 36.4595 0.988281 36.0406V5.6822C0.988281 5.26327 1.32753 4.92403 1.74722 4.92403H14.08V1.12933C14.08 0.710391 14.4192 0.369629 14.8389 0.369629C15.2586 0.369629 15.5979 0.710391 15.5979 1.12933V4.92403H26.223V1.12933C26.223 0.710391 26.5623 0.369629 26.982 0.369629C27.4017 0.369629 27.7409 0.710391 27.7409 1.12933V4.92403H40.0737C40.4934 4.92403 40.8326 5.26327 40.8326 5.6822V36.0406C40.8326 36.4595 40.4934 36.7987 40.0737 36.7987ZM39.3148 6.4419H27.7409V8.71796C27.7409 9.13765 27.4017 9.47766 26.982 9.47766C26.5623 9.47766 26.223 9.13765 26.223 8.71796V6.4419H15.5979V8.71796C15.5979 9.13765 15.2586 9.47766 14.8389 9.47766C14.4192 9.47766 14.08 9.13765 14.08 8.71796V6.4419H2.50616V11.7545H39.3148V6.4419ZM39.3148 13.2716H2.50616V35.2816H39.3148V13.2716Z"
+                                                    fill="#F2C94C" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M40.0737 36.7987H1.74722C1.32753 36.7987 0.988281 36.4595 0.988281 36.0406V5.6822C0.988281 5.26327 1.32753 4.92403 1.74722 4.92403H14.08V1.12933C14.08 0.710391 14.4192 0.369629 14.8389 0.369629C15.2586 0.369629 15.5979 0.710391 15.5979 1.12933V4.92403H26.223V1.12933C26.223 0.710391 26.5623 0.369629 26.982 0.369629C27.4017 0.369629 27.7409 0.710391 27.7409 1.12933V4.92403H40.0737C40.4934 4.92403 40.8326 5.26327 40.8326 5.6822V36.0406C40.8326 36.4595 40.4934 36.7987 40.0737 36.7987ZM39.3148 6.4419H27.7409V8.71796C27.7409 9.13765 27.4017 9.47766 26.982 9.47766C26.5623 9.47766 26.223 9.13765 26.223 8.71796V6.4419H15.5979V8.71796C15.5979 9.13765 15.2586 9.47766 14.8389 9.47766C14.4192 9.47766 14.08 9.13765 14.08 8.71796V6.4419H2.50616V11.7545H39.3148V6.4419ZM39.3148 13.2716H2.50616V35.2816H39.3148V13.2716Z"
+                                                    fill="url(#paint0_linear)" />
+                                                <path
+                                                    d="M16.6854 16.7058C16.4016 16.5889 16.076 16.6527 15.8582 16.8697L13.2467 19.482C12.9499 19.778 12.9499 20.2584 13.2467 20.5551C13.5427 20.8511 14.0231 20.8511 14.3191 20.5551L15.6358 19.2391V30.4654C15.6358 30.8843 15.9751 31.2243 16.3948 31.2243C16.8145 31.2243 17.1537 30.8843 17.1537 30.4654V17.4071C17.1537 17.0997 16.9693 16.8234 16.6854 16.7058Z"
+                                                    fill="#F2C94C" />
+                                                <path
+                                                    d="M16.6854 16.7058C16.4016 16.5889 16.076 16.6527 15.8582 16.8697L13.2467 19.482C12.9499 19.778 12.9499 20.2584 13.2467 20.5551C13.5427 20.8511 14.0231 20.8511 14.3191 20.5551L15.6358 19.2391V30.4654C15.6358 30.8843 15.9751 31.2243 16.3948 31.2243C16.8145 31.2243 17.1537 30.8843 17.1537 30.4654V17.4071C17.1537 17.0997 16.9693 16.8234 16.6854 16.7058Z"
+                                                    fill="url(#paint1_linear)" />
+                                                <path
+                                                    d="M27.0192 16.7787L20.9476 16.7863C20.5287 16.7863 20.1895 17.1263 20.1895 17.5444V22.0988C20.1895 22.5178 20.5287 22.857 20.9484 22.857H23.9842C25.9415 22.857 27.0199 24.104 27.0199 26.3679C27.0199 28.6455 26.0546 29.7064 23.9842 29.7064C21.872 29.7064 21.7073 27.9487 21.7073 27.4107C21.7073 26.9917 21.3681 26.6517 20.9484 26.6517C20.5287 26.6517 20.1895 26.9917 20.1895 27.4107C20.1895 29.3088 21.3628 31.2243 23.9842 31.2243C26.878 31.2243 28.5378 29.4537 28.5378 26.3679C28.5378 22.6604 26.1851 21.3391 23.9842 21.3391H21.7073V18.3026L27.0207 18.2965C27.4404 18.2958 27.7796 17.9558 27.7789 17.5361C27.7781 17.1172 27.4381 16.7787 27.0192 16.7787Z"
+                                                    fill="#F2C94C" />
+                                                <path
+                                                    d="M27.0192 16.7787L20.9476 16.7863C20.5287 16.7863 20.1895 17.1263 20.1895 17.5444V22.0988C20.1895 22.5178 20.5287 22.857 20.9484 22.857H23.9842C25.9415 22.857 27.0199 24.104 27.0199 26.3679C27.0199 28.6455 26.0546 29.7064 23.9842 29.7064C21.872 29.7064 21.7073 27.9487 21.7073 27.4107C21.7073 26.9917 21.3681 26.6517 20.9484 26.6517C20.5287 26.6517 20.1895 26.9917 20.1895 27.4107C20.1895 29.3088 21.3628 31.2243 23.9842 31.2243C26.878 31.2243 28.5378 29.4537 28.5378 26.3679C28.5378 22.6604 26.1851 21.3391 23.9842 21.3391H21.7073V18.3026L27.0207 18.2965C27.4404 18.2958 27.7796 17.9558 27.7789 17.5361C27.7781 17.1172 27.4381 16.7787 27.0192 16.7787Z"
+                                                    fill="url(#paint2_linear)" />
+                                        </symbol>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xlink:href="#pic_3"></use>
+                                    </svg>
+                                </div>
+                                <div class="main_footer_text">
+                                    <p>Все фотографии через
+                                        15 дней</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- // row -->
+
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery_row">
+                    <div class="gallery_subtitle subtitle">
+                        <h3>Галерея</h3>
+                    </div>
+                    <div class="gallery_title title">
+                        <h2>Мы работаем во всех стилях</h2>
+                    </div>
+                    <div class="gallery_btn">
+                        <button>Семейная съемка</button>
+                        <button>Love story</button>
+                        <button>Lifestyle</button>
+                        <button>Fashion</button>
+                        <button>Glamour</button>
+                    </div>
+                </div>
+                <div class="gallery_content" id="grid">
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_1.jpg">
+                            <img src="img/gallery/img_1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_2.jpg">
+                            <img src="img/gallery/img_2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img ">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_3.jpg">
+                            <img src="img/gallery/img_3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img imgl">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_4.jpg">
+                            <img src="img/gallery/img_4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_5.jpg">
+                            <img src="img/gallery/img_5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_6.jpg">
+                            <img src="img/gallery/img_6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_7.jpg">
+                            <img src="img/gallery/img_7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="gallery_img">
+                        <div class="gallery_hover">
+                            <img src="img/gallery/icon.png" alt="">
+                            <p>увеличить</p>
+                        </div>
+                        <a data-fancybox="gallery" href="img/gallery/img_8.jpg">
+                            <img src="img/gallery/img_8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="gallery-slider" id="gallery-slider">
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_1.jpg">
+                                        <img src="img/gallery/img_1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_2.jpg">
+                                        <img src="img/gallery/img_2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_5.jpg">
+                                        <img src="img/gallery/img_5.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_1.jpg">
+                                        <img src="img/gallery/img_1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_7.jpg">
+                                        <img src="img/gallery/img_7.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gallery-slider_photo ">
+                                <div class="gallery-slider_img">
+                                    <a data-fancybox="gallery-slider" href="img/gallery/img_6.jpg">
+                                        <img src="img/gallery/img_6.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="price">
+        <div class="price">
+            <div class="container">
+                <div class="price_row">
+                    <div class="price_subtitle subtitle">
+                        <h3>услуги и цены</h3>
+                    </div>
+                    <div class="price_title title">
+                        <h2>Сколько стоят наши услуги</h2>
+                    </div>
+                </div>
+                <div class="price_inner">
+                    <div class="price_card">
+                        <div class="price_card_subtitle subtitle">
+                            <h3>пакет</h3>
+                        </div>
+                        <div class="price_card_title title">
+                            <h2>Легкий</h2>
+                        </div>
+                        <div class="price_content">
+                            <ul>
+                                <li>
+                                    <span> Съёмка и обработка
+                                        60 фотографий</span>
+                                </li>
+                                <li>
+                                    <span>USB-флешка с фото</span>
+                                </li>
+                                <li>
+                                    <span>10 одноминутных видео для Instagram</span>
+                                </li>
+                                <li>
+                                    Аренда платья на фотосессию
+                                </li>
+                                <li>
+                                    Аренда квадрокоптера
+                                </li>
+                                <li>
+                                    Доставка в живописные места Анталии
+                                </li>
+                                <li>
+                                    Аренда квадрокоптера
+                                </li>
+                                <li>
+                                    Доставка в живописные места Анталии
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <h3>7000 &#8381; </h3>
+                            <div class="price_btn">
+                                <button>
+                                    заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price_card">
+                        <div class="price_card_subtitle subtitle">
+                            <h3>пакет</h3>
+                        </div>
+                        <div class="price_card_title title">
+                            <h2>Премиум</h2>
+                        </div>
+                        <div class="price_content">
+                            <ul>
+                                <li>
+                                    <span> Съёмка и обработка
+                                        60 фотографий</span>
+                                </li>
+                                <li>
+                                    <span>USB-флешка с фото</span>
+                                </li>
+                                <li>
+                                    <span>10 одноминутных видео для Instagram</span>
+                                </li>
+                                <li>
+                                    <span>Аренда платья на фотосессию</span>
+                                </li>
+                                <li>
+                                    <span>Аренда квадрокоптера</span>
+                                </li>
+                                <li>
+                                    <span>Доставка в живописные места Анталии</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <h3>12000 &#8381; </h3>
+                            <div class="price_btn">
+                                <button>
+                                    заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price_card">
+                        <div class="price_card_subtitle subtitle">
+                            <h3>пакет</h3>
+                        </div>
+                        <div class="price_card_title title">
+                            <h2>Стандарт</h2>
+                        </div>
+                        <div class="price_content">
+                            <ul>
+                                <li>
+                                    <span> Съёмка и обработка
+                                        60 фотографий</span>
+                                </li>
+                                <li>
+                                    <span>USB-флешка с фото</span>
+                                </li>
+                                <li>
+                                    <span>10 одноминутных видео для Instagram</span>
+                                </li>
+                                <li>
+                                    <span>Аренда платья на фотосессию</span>
+                                </li>
+                                <li>
+                                    Аренда квадрокоптера
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="price_footer">
+                            <h3>9000 &#8381; </h3>
+                            <div class="price_btn">
+                                <button>
+                                    заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="team">
+            <!-- <div class="team_bg">
+                <img src="img/team/bg.jpg" alt="">
+            </div> -->
+            <div class="team_content">
+                <div class="team_video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XbnAKjjlgc4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="team_inner">
+                    <div class="team_subtitle subtitle">
+                        <h3>Наша команда</h3>
+                    </div>
+                    <div class="team_title title">
+                        <h2>Посмотрите 2-минутное видео
+                            о нас, чтобы лучше понять,
+                            как проходят наши фотосессии</h2>
+                    </div>
+                    <div class="team_text">
+                        <p>Делаем так, чтобы воспоминания об отдыхе остались у вас
+                            на всю жизнь. Для этого заранее продумываем сюжет
+                            и подбираем интересные геолокации
+                            . <a href="#">Наша цель</a> - создавать атмосферные фотографии, которые передают сюжет
+                            и рассказывают историю.</p>
+                        <br>
+                        <p>Ладим с детьми, знаем уникальные места вблизи Анталии, помогаем позировать, умеем смешить
+                            и ловить мгновения.
+                            На наших фотографиях вы будете выглядеть естественно красиво, даже если это ваша первая
+                            съемка. А чтобы убедиться, что
+                            вам с нами будет комфортно, <span>посмотрите 2-минутное видео</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="response">
+        <div class="container">
+            <div class="response">
+                <div class="response_row">
+                    <div class="response_subtitle subtitle">
+                        <h3>отзывы</h3>
+                    </div>
+                    <div class="response_title title">
+                        <h2>Узнайте, что пишут о нас наши клиенты <br>
+                            в своих <span>Instagram</span> <img src="img/main/insta.png" alt=""> аккаунтах</h2>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="slider" id="slider">
+                        <div>
+                            <div class="slider_response ">
+                                <div class="slider_img">
+                                    <img src="img/slider/photo.png" alt="">
+                                </div>
+                                <div class="slider_content">
+                                    <div class="slider_title">
+                                        <p>Просто восторг!</p>
+                                    </div>
+                                    <div class="slider_text">
+                                        <p>Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с
+                                            ребятами из photiguide.biz Спасибо!
+                                            Получила массу удовольствия от фотосессии!
+                                            Всех подруг отправляю к вам!</p>
+                                    </div>
+                                    <div class="slider_name">
+                                        <img src="img/slider/inst.png" alt="">
+                                        <p>@Masha_Sharapova</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_response">
+                                <div class="slider_img">
+                                    <img src="img/slider/photo.png" alt="">
+                                </div>
+                                <div class="slider_content">
+                                    <div class="slider_title">
+                                        <p>Просто восторг!</p>
+                                    </div>
+                                    <div class="slider_text">
+                                        <p>Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с
+                                            ребятами из photiguide.biz Спасибо!
+                                            Получила массу удовольствия от фотосессии!
+                                            Всех подруг отправляю к вам!</p>
+                                    </div>
+                                    <div class="slider_name">
+                                        <img src="img/slider/inst.png" alt="">
+                                        <p>@Masha_Sharapova</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_row">
+                        <div class="footer_subtitle subtitle">
+                            <h3>Контакты</h3>
+                        </div>
+                        <div class="footer_title title">
+                            <h2>Свяжитесь с нами удобным вам способом, чтобы договориться <br>
+                                о встрече-знакомстве и обсудить детали</h2>
+                        </div>
+                    </div>
+                    <div class="footer_social">
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_1" src="img/footer/icon_1.png" alt="Telegram">
+                                <span>Telegram</span></a>
+                        </div>
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_2" src="img/footer/icon_2.png" alt="Viber"> <span>
+                                    Viber</span></a>
+                        </div>
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_3" src="img/footer/icon_3.png" alt="Facebook"> <span>
+                                    Facebook</span></a>
+                        </div>
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_4" src="img/footer/icon_4.png" alt="Instagram"> <span>
+                                    Instagram</span></a>
+                        </div>
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_5" src="img/footer/icon_5.png" alt="whatsapp"> <span>
+                                    whatsapp</span></a>
+                        </div>
+                        <div class="footer_icon">
+                            <a href="#"><img class="footer_icon_6" src="img/footer/icon_6.png" alt="VKOntakte"> <span>
+                                    VKOntakte</span></a>
+                        </div>
+                    </div>
+
+                    <form action="#" method="GET">
+                        <fieldset>
+                            <legend>Или оставьте данные и мы перезвоним</legend>
+                            <div class="form">
+                                <div class="input">
+                                    <input type="text" name="username" required maxlength="30" />
+                                    <label name="username">Ваше ім'я</label>
+                                </div>
+                                <div class="input">
+                                    <input type="tel" name="userphone" minlength="13" maxlength="15" required />
+                                    <label name="userphone">Ваш телефон</label>
+                                </div>
+                                <div class="input">
+                                    <textarea type="text" name="text" required maxlength="200"></textarea>
+                                    <label name="text">Залишити коментарій</label>
+                                </div>
+                                <button>Отправить заявку</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div class="footer_text">
+                        <p>Пользуясь сайтом photoguide.biz и оставляя заявку Вы соглашаетесь с <a href="#">Политикой
+                                конфиденциальности</a> нашей компании. Мы
+                            гарантируем,
+                            что Ваши данные будут использоваться только для связи с Вами и не будут переданы третьим
+                            лицам.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_year">
+                <p>2019 © Photoguide.biz. All rights reserved. Бренд упакован <span> Digital Butlers</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up__bg"></div>
+        <div class="pop-up__card">
+            <div class="pop-up__close" id="close">
+                <span>close</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
